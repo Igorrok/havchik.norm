@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Havchik_Cart>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Havchik_Cart>
+    </modules>
+</config>

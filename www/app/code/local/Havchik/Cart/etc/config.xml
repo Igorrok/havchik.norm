@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+
+<config>
+    <modules>
+        <Havchik_Cart>
+            <version>0.1.0</version>
+        </Havchik_Cart>
+    </modules>
+    <global>
+        <resources>
+            <havchikcart_setup>
+                <setup>
+                    <module>Havchik_Cart</module>
+                </setup>
+            </havchikcart_setup>
+        </resources>
+    </global>
+</config>
