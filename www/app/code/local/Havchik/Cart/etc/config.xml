@@ -6,7 +6,37 @@
             <version>0.1.0</version>
         </Havchik_Cart>
     </modules>
+    <frontend>
+        <layout>
+            <updates>
+                <havchikcart>
+                    <file>havchik_cart.xml</file>
+                </havchikcart>
+            </updates>
+        </layout>
+        <routers>
+            <havchikcart>
+                <use>standard</use>
+                <args>
+                    <module>Havchik_Cart</module>
+                    <frontName>cart</frontName>
+                </args>
+            </havchikcart>
+        </routers>
+    </frontend>
     <global>
+        <models>
+            <havchikcart>
+                <resourceModel>havchikcart_resource</resourceModel>
+            </havchikcart>
+            <havchikcart_resource>
+                <entities>
+                    <table_cart>
+                        <table>havchik_cart_entities</table>
+                    </table_cart>
+                </entities>
+            </havchikcart_resource>
+        </models>
         <resources>
             <havchikcart_setup>
                 <setup>
