@@ -2,13 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8df5be61-de81-4e19-a5ba-8befda179cad" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/app/code/local/Havchik/Cart/Model/Cart.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/app/code/local/Havchik/Cart/Model/Resource/Cart.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/app/code/local/Havchik/Cart/Model/Resource/Cart/Collection.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/app/code/local/Havchik/Cart/Block/CartView.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/app/code/local/Havchik/Cart/Block/Carts.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/app/design/frontend/rwd/default/template/havchik_cart/cartview.phtml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/app/code/local/Havchik/Cart/controllers/IndexController.php" afterPath="$PROJECT_DIR$/www/app/code/local/Havchik/Cart/controllers/IndexController.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/app/code/local/Havchik/Cart/etc/config.xml" afterPath="$PROJECT_DIR$/www/app/code/local/Havchik/Cart/etc/config.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/index.php" afterPath="$PROJECT_DIR$/www/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/app/code/local/Havchik/Cart/sql/havchikcart_setup/install-0.1.0.php" afterPath="$PROJECT_DIR$/www/app/code/local/Havchik/Cart/sql/havchikcart_setup/install-0.1.0.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/app/design/frontend/rwd/default/layout/havchik_cart.xml" afterPath="$PROJECT_DIR$/www/app/design/frontend/rwd/default/layout/havchik_cart.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/app/design/frontend/rwd/default/template/havchik_cart/index.phtml" afterPath="$PROJECT_DIR$/www/app/design/frontend/rwd/default/template/havchik_cart/index.phtml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="havchik.norm.iws" />
@@ -33,10 +33,64 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="IndexController.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Cart.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/app/code/local/Havchik/Cart/Model/Cart.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="29" selection-start="140" selection-end="140" vertical-scroll-proportion="-4.0" vertical-offset="0" max-vertical-offset="288">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/app/code/local/Havchik/Cart/etc/config.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="28" column="24" selection-start="681" selection-end="692" vertical-scroll-proportion="0.0" vertical-offset="241" max-vertical-offset="1098">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IndexController.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/app/code/local/Havchik/Cart/controllers/IndexController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="1" selection-start="312" selection-end="312" vertical-scroll-proportion="0.2819277" vertical-offset="0" max-vertical-offset="830">
+            <state line="9" column="20" selection-start="212" selection-end="216" vertical-scroll-proportion="-6.0" vertical-offset="0" max-vertical-offset="468">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="havchik_cart.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/app/design/frontend/rwd/default/layout/havchik_cart.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="9" selection-start="473" selection-end="473" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="324">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cartview.phtml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/app/design/frontend/rwd/default/template/havchik_cart/cartview.phtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="41" selection-start="41" selection-end="41" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="108">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.phtml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/app/design/frontend/rwd/default/template/havchik_cart/index.phtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="44" selection-start="88" selection-end="88" vertical-scroll-proportion="-1.3333334" vertical-offset="0" max-vertical-offset="252">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CartView.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/www/app/code/local/Havchik/Cart/Block/CartView.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="4" selection-start="79" selection-end="79" vertical-scroll-proportion="0.066831686" vertical-offset="0" max-vertical-offset="808">
               <folding />
             </state>
           </provider>
@@ -55,14 +109,20 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/www/app/code/local/Havchik/Cart/etc/config.xml" />
         <option value="$PROJECT_DIR$/www/app/code/local/Havchik/Cart/Model/Cart.php" />
         <option value="$PROJECT_DIR$/www/app/code/local/Havchik/Cart/Model/Resource/Cart/Cart.php" />
         <option value="$PROJECT_DIR$/www/app/code/local/Havchik/Cart/Model/Resource/Cart.php" />
         <option value="$PROJECT_DIR$/www/app/code/local/Havchik/Cart/Model/Resource/Cart/Collection.php" />
         <option value="$PROJECT_DIR$/www/index.php" />
         <option value="$PROJECT_DIR$/www/app/code/local/Havchik/Cart/sql/havchikcart_setup/install-0.1.0.php" />
+        <option value="$PROJECT_DIR$/www/app/code/local/Havchik/Cart/etc/config.xml" />
+        <option value="$PROJECT_DIR$/www/app/code/local/Havchik/Cart/Block/Cart.php" />
+        <option value="$PROJECT_DIR$/www/app/code/local/Havchik/Cart/Block/Carts.php" />
+        <option value="$PROJECT_DIR$/www/app/design/frontend/rwd/default/layout/havchik_cart.xml" />
+        <option value="$PROJECT_DIR$/www/app/design/frontend/rwd/default/template/havchik_cart/cartview.phtml" />
         <option value="$PROJECT_DIR$/www/app/code/local/Havchik/Cart/controllers/IndexController.php" />
+        <option value="$PROJECT_DIR$/www/app/design/frontend/rwd/default/template/havchik_cart/index.phtml" />
+        <option value="$PROJECT_DIR$/www/app/code/local/Havchik/Cart/Block/CartView.php" />
       </list>
     </option>
   </component>
@@ -301,6 +361,44 @@
               <option name="myItemId" value="default" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layout" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="havchik.norm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="havchik.norm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="design" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frontend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rwd" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="default" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -484,52 +582,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Model" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Resource" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Cart" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="havchik.norm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="havchik.norm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="code" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="local" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Havchik" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Cart" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="etc" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -593,6 +645,104 @@
               <option name="myItemId" value="code" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="local" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Havchik" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Cart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Block" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="havchik.norm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="havchik.norm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="code" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="havchik.norm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="havchik.norm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="code" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="community" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Phoenix" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Moneybookers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="havchik.norm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="havchik.norm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="code" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="community" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -608,6 +758,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/www/app/design/frontend/rwd/default/template/havchik_cart" />
       <recent name="$PROJECT_DIR$/www/app/design/frontend/rwd/default/template" />
       <recent name="$PROJECT_DIR$/www/app/design/frontend/rwd/default/layout" />
       <recent name="$PROJECT_DIR$/www/app/code/local/Havchik" />
@@ -665,7 +816,11 @@
       <created>1418736111844</created>
       <updated>1418736111844</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="added havchikcart Model and Resource classes(turn project into &quot;development mod&quot;)">
+      <created>1418739326098</created>
+      <updated>1418739326099</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -710,40 +865,13 @@
     <MESSAGE value="Revert &quot;:octocat: Added .gitattributes &amp; .gitignore files&quot;&#10;&#10;This reverts commit beea8237f172920fce3526f52e4a462bea1aec7e.&#10;" />
     <MESSAGE value="Commiting the structure of the project" />
     <MESSAGE value="added test module controller" />
-    <option name="LAST_COMMIT_MESSAGE" value="added test module controller" />
+    <MESSAGE value="added havchikcart Model and Resource classes(turn project into &quot;development mod&quot;)" />
+    <option name="LAST_COMMIT_MESSAGE" value="added havchikcart Model and Resource classes(turn project into &quot;development mod&quot;)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/www/app/design/frontend/rwd/default/template/havchik_cart/index.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="859">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/app/design/frontend/rwd/default/layout/havchik_cart.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="859">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/app/code/local/Havchik/Cart/Model/Cart.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="29" selection-start="140" selection-end="140" vertical-scroll-proportion="0.13012049" vertical-offset="0" max-vertical-offset="830">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/app/code/local/Havchik/Cart/etc/config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="50" selection-start="897" selection-end="924" vertical-scroll-proportion="0.0" vertical-offset="151" max-vertical-offset="1008">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/www/app/code/local/Havchik/Cart/Model/Resource/Cart/Collection.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="1" selection-start="229" selection-end="229" vertical-scroll-proportion="-6.6666665" vertical-offset="0" max-vertical-offset="288">
@@ -780,9 +908,58 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/www/app/code/local/Havchik/Cart/Block/Carts.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="5" selection-start="285" selection-end="285" vertical-scroll-proportion="0.19518073" vertical-offset="0" max-vertical-offset="830">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/app/code/local/Havchik/Cart/Model/Cart.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="29" selection-start="140" selection-end="140" vertical-scroll-proportion="-4.0" vertical-offset="0" max-vertical-offset="288">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/app/code/local/Havchik/Cart/etc/config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="24" selection-start="681" selection-end="692" vertical-scroll-proportion="0.0" vertical-offset="241" max-vertical-offset="1098">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/app/design/frontend/rwd/default/layout/havchik_cart.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="9" selection-start="473" selection-end="473" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="324">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/app/design/frontend/rwd/default/template/havchik_cart/cartview.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="41" selection-start="41" selection-end="41" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="108">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/www/app/code/local/Havchik/Cart/controllers/IndexController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="1" selection-start="312" selection-end="312" vertical-scroll-proportion="0.2819277" vertical-offset="0" max-vertical-offset="830">
+        <state line="9" column="20" selection-start="212" selection-end="216" vertical-scroll-proportion="-6.0" vertical-offset="0" max-vertical-offset="468">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/app/design/frontend/rwd/default/template/havchik_cart/index.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="44" selection-start="88" selection-end="88" vertical-scroll-proportion="-1.3333334" vertical-offset="0" max-vertical-offset="252">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/app/code/local/Havchik/Cart/Block/CartView.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="4" selection-start="79" selection-end="79" vertical-scroll-proportion="0.066831686" vertical-offset="0" max-vertical-offset="808">
           <folding />
         </state>
       </provider>

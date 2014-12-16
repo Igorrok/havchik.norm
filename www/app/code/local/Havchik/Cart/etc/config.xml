@@ -25,6 +25,11 @@
         </routers>
     </frontend>
     <global>
+        <blocks>
+            <havchikcart>
+                <class>Havchik_Cart_Block</class>
+            </havchikcart>
+        </blocks>
         <models>
             <havchikcart>
                 <class>Havchik_Cart_Model</class>

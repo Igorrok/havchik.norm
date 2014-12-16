@@ -2,7 +2,12 @@
 <layout>
     <havchikcart_index_index>
         <reference name="content">
-            <block type="core/template" template="havchik_cart/index.phtml" />
+            <block type="havchikcart/carts" template="havchik_cart/index.phtml" />
         </reference>
     </havchikcart_index_index>
+    <havchikcart_index_cartview>
+        <reference name="content">
+            <block type="havchikcart/cartView" name="cart.content" template="havchik_cart/cartview.phtml" />
+        </reference>
+    </havchikcart_index_cartview>
 </layout>
