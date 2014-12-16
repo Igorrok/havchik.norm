@@ -1,13 +1,13 @@
 <?php
 $installer = $this;
-$tableNews = $installer->getTable('havchikcart/table_cart');
+$tableCart = $installer->getTable('havchikcart/table_cart');
 
 $installer->startSetup();
 
-$installer->getConnection()->dropTable($tableNews);
+$installer->getConnection()->dropTable($tableCart);
 $table = $installer->getConnection()
-->newTable($tableNews)
-->addColumn('news_id', Varien_Db_Ddl_Table::TYPE_INTEGER, null, array(
+->newTable($tableCart)
+->addColumn('id', Varien_Db_Ddl_Table::TYPE_INTEGER, null, array(
 'identity'  => true,
 'nullable'  => false,
 'primary'   => true,

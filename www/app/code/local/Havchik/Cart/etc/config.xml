@@ -27,9 +27,11 @@
     <global>
         <models>
             <havchikcart>
+                <class>Havchik_Cart_Model</class>
                 <resourceModel>havchikcart_resource</resourceModel>
             </havchikcart>
             <havchikcart_resource>
+                <class>Havchik_Cart_Model_Resource</class>
                 <entities>
                     <table_cart>
                         <table>havchik_cart_entities</table>
