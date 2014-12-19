@@ -1,6 +1,26 @@
 <?xml version="1.0"?>
 
 <config>
+    <admin>
+        <routers>
+            <havchikcart_admin>
+                <use>admin</use>
+                <args>
+                    <module>Havchik_Cart</module>
+                    <frontName>cart_admin</frontName>
+                </args>
+            </havchikcart_admin>
+        </routers>
+    </admin>
+    <adminhtml>
+        <menu>
+            <havchikcart module="havchikcart">
+                <title>HavchikCart</title>
+                <sort_order>77</sort_order>
+                <action>cart_admin/adminhtml_cart</action>
+            </havchikcart>
+        </menu>
+    </adminhtml>
     <modules>
         <Havchik_Cart>
             <version>0.1.0</version>
@@ -25,6 +45,11 @@
         </routers>
     </frontend>
     <global>
+        <helpers>
+            <havchikcart>
+                <class>Havchik_Cart_Helper</class>
+            </havchikcart>
+        </helpers>
         <blocks>
             <havchikcart>
                 <class>Havchik_Cart_Block</class>
